@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "themes": {
+        "habanero": {
+            "name": "Habanero",
+            "repo": "https://github.com/robdell/habanero/tree/master",
+            "zip": "https://github.com/robdell/habanero/archive/master.zip",
+            "summary": "Wild Jr's Hot Sauce theme (2023). Theme requires Bootstrap and jQuery.",
+            "version": "1.2.0",
+            "image": "https://raw.githubusercontent.com/robdell/habanero/master/preview.jpg"
+        }
+    }
+}

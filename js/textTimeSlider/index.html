@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>jQuery textTimeSlider: Text Rotator Example</title>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<p>
+  Infinite Loop: <tts></tts>
+</p>
+
+<script src="textTimeSlider.js"></script>
+<script>
+  $( "tts" ).textTimeSlider(["jQuery", "Script", ".Net"], [2000, 4000, 6000]);
+  $( "#textTimeSlider2").textTimeSlider(["jQuery", "Script", ".Net"], [2000, 2000, 2000], false);
+</script>
+
+</body>
+</html>
